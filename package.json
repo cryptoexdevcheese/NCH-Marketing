@@ -1,0 +1,26 @@
+{
+  "name": "nch-marketing",
+  "version": "1.0.0",
+  "description": "Standalone NCH Binary MLM Platform with Dual-Leg Matching and Tree Visualization",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node test/test-mlm.js",
+    "dev": "node server.js"
+  },
+  "keywords": [
+    "nch",
+    "binary-mlm",
+    "blockchain",
+    "referral",
+    "network-marketing"
+  ],
+  "author": "NCH Marketing Team",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "sqlite3": "^5.1.7"
+  }
+}
